@@ -1,3 +1,4 @@
+
 # OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS
 
 ( Follow template provided in CPU scheduling algorithms for sub divisions )
@@ -12,7 +13,8 @@ Description:
 
 Disk scheduling is schedule I/O requests arriving for the disk. It is important because: - Multiple I/O requests may arrive by different processes and only one I/O request can be served at a time by the disk controller.
 
-```#include <stdio.h>
+```
+#include <stdio.h>
 #include <stdlib.h>
 int main() {
     int RQ[100], i, n, TotalHeadMovement = 0, initial;
@@ -106,10 +108,13 @@ Result:
 Thus the implementation of the program for shortest seek time first disc scheduling has been successfully executed.
 
 3.DISK SCHEDULING-SCAN
+
 Aim:
+
 To write a program for the first come first serve method of disc scheduling.
 
 Description:
+
 It works in the way an elevator works, elevator moves in a direction completely till the last floor of that direction and then turns back.
 
 Program:
@@ -284,4 +289,5 @@ OUTPUT:
 
 
 Result:
+
 Thus the implementation of the program for LOOK disc scheduling has been successfully executed
